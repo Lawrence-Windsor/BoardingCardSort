@@ -9,7 +9,7 @@ public class BoardingCard {
 	 public boolean baggage;
 	 
 	 	public BoardingCard(){
-	 		
+	 		 
 	 	}
 	 
 	 	public BoardingCard(String tbRowLink, String transportMeans, String departure, String destination, String seat, boolean baggage){
