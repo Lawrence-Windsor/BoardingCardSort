@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/transportMeans"
+        android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content"      	 
+       	android:text="Transport Means"/> 
+    <EditText
+    	android:id="@+id/EditText1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/transportMeans"
+    	android:inputType="text" />
+   	<TextView 
+   	    android:id="@+id/departure"
+   	    android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content" 
+    	android:layout_below="@+id/EditText1"
+       	android:text="Departure"/>     
+    <EditText
+    	android:id="@+id/EditText2"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/departure"
+    	android:inputType="text" />
+    <TextView 
+        android:id="@+id/destination"
+        android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content"
+      	android:layout_below="@+id/EditText2"
+       	android:text="Destination"/> 
+    <EditText
+    	android:id="@+id/EditText3"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/destination"
+    	android:inputType="text" />
+   	<TextView 
+   	    android:id="@+id/seatRes"
+   	    android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content" 
+    	android:layout_below="@+id/EditText3"
+       	android:text="Seat Res"/>     
+    <EditText
+    	android:id="@+id/EditText4"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/seatRes"/>
+       	<TextView 
+   	    android:id="@+id/baggage"
+   	    android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content" 
+    	android:layout_below="@+id/EditText4"
+       	android:text="Baggage"/>     
+    <EditText
+    	android:id="@+id/EditText5"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/baggage"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BoardCardSort</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtSort">Unsorted List!</string>
+    <string name="btnSort">Sort</string>
+    <string name="btnAddCard">Add Boarding Card</string>
+    <string name="btnMore">More >></string>
+    <string name="textView">TESTING</string>    
+</resources>
